@@ -3,6 +3,7 @@
 work in progress, current funtionality includes: 
 - discord bot launches, and says hi in the console.
 - connects to a mongodb atlas cluster
+- query for messages from last 24hrs, for all channels, or specified channel(s)
 - bot listens for messages, and pools them to the specified `limit` before writing to a mongodb database
 - more coming soon :)
 
