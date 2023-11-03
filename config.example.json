@@ -1,0 +1,7 @@
+{
+    "discord_app_id": "<your discord app id>",
+    "discord_pubkey":"<your discord pubkey>",
+    "invite_url":"<bot invite url>",
+    "token":"<bot token>",
+    "mongo_uri":"<mongo connection string>"
+}
