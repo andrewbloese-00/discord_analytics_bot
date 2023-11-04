@@ -141,4 +141,4 @@ async function updateReaction(messageId, reactionEmoji, up = true){
 }
 
 
-module.exports = {connectToMongo, insertMessages , getMessagesFromToday, updateMessages, addReaction}
+module.exports = {connectToMongo, insertMessages , getMessagesFromToday, updateMessages, updateReaction}
