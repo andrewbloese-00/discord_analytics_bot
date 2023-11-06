@@ -17,7 +17,9 @@ discord.once(Events.ClientReady, c=>{
 })
 discord.on(Events.MessageCreate, handle.onMessageCreate);
 discord.on(Events.MessageUpdate, handle.onMessageUpdate);
-
+//new not tested yet!
+discord.on(Events.MessageReactionAdd, handle.onMessageReactionAdd)
+discord.on(Events.MessageReactionRemove,handle.onMessageReactionRemove)
 async function main(){
     try {
        await connectToMongo();
